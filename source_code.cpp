@@ -1,8 +1,11 @@
 #include <string>
 
 std::string SOURCE_CODE = R"(
-#include<iostream>
-int x = 10;
-x = x + 5;
-int nums[10] = [1,2,3,4]
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    int arr[5] = {1, 2, 3, 4, 5};
+    return 0;
+}
 )";
