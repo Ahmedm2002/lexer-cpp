@@ -12,8 +12,7 @@ vector<string> KEYWORDS = {
     "inline", "int", "long", "mutable", "namespace", "new", "noexcept", "not", "not_eq", "nullptr",
     "operator", "or", "or_eq", "private", "protected", "public", "reflexpr", "register", "reinterpret_cast",
     "requires", "return", "short", "signed", "sizeof", "static", "static_assert", "static_cast", "struct",
-    "switch", "synchronized", "template", "this", "thread_local", "throw", "true", "try", "typedef", "typeid",
-    "typename", "union", "unsigned", "using", "virtual", "void", "volatile", "wchar_t", "while", "xor", "xor_eq"
+    "switch", "synchronized", "template", "this", "thread_local", "throw", "true", "try", "typedef", "typeid","typename", "union", "unsigned", "using", "virtual", "void", "volatile", "wchar_t", "while", "xor", "xor_eq"
 };
 
 bool is_keyword(const string& str) {
